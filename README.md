@@ -41,7 +41,7 @@ It is developed with a focus on user-friendliness, security, and efficiency.
 3. **Database Setup**
    - Create a MySQL database and import the provided SQL file:
      ```sh
-     mysql -u yourusername -p yourpassword travel_db < database/travel_db.sql
+     mysql -u yourusername -p yourpassword travel_db < database/book_db.sql
      ```
    - Update the database configuration in `config/database.php`:
      ```php
